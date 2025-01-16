@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HOp7xMzdef4RM97u6GO8+lwoupm43EWJtKWdOLPt6ks=",
+  "Hash": "aLwR79lnfpJxCHuyjDbpWz/dyyZ0xR1J51+PKxZWzcs=",
   "Source": "Server",
   "BasePath": "_content/Server",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Server\\wwwroot",
       "Source": "Server",
-      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\",
       "BasePath": "_content/Server",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\im50fn48yh-tkrxbbj91g.gz",
+      "Identity": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\im50fn48yh-tkrxbbj91g.gz",
       "SourceId": "Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Server",
       "RelativePath": "assets/index-pNDbPpl1#[.{fingerprint=tkrxbbj91g}]?.js.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\assets\\index-pNDbPpl1.js",
+      "RelatedAsset": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\assets\\index-pNDbPpl1.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "93qz1buy3u",
       "Integrity": "1Xvbvn/Pc8JbpJgiW9t9yaLZ1Ak1WLBVXIGjWFQs/Yo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\assets\\index-pNDbPpl1.js"
+      "OriginalItemSpec": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\assets\\index-pNDbPpl1.js"
     },
     {
-      "Identity": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\me970lfqfr-netr1u58fl.gz",
+      "Identity": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\me970lfqfr-netr1u58fl.gz",
       "SourceId": "Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Server",
       "RelativePath": "index#[.{fingerprint=netr1u58fl}]?.html.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\index.html",
+      "RelatedAsset": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "8rsvyzlhea",
       "Integrity": "VAF32tjZ4kl+2U8uocm6ekfLwb+H0HSQa0x1Mx1vVuA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\index.html"
+      "OriginalItemSpec": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\yp2k4b0m3l-vchkjws9fk.gz",
+      "Identity": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\yp2k4b0m3l-vchkjws9fk.gz",
       "SourceId": "Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Server",
       "RelativePath": "vite#[.{fingerprint=vchkjws9fk}]?.svg.gz",
       "AssetKind": "All",
@@ -70,20 +70,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\vite.svg",
+      "RelatedAsset": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\vite.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "v6itlv6llz",
       "Integrity": "qU1Q0/p+auKEjINppu+PZ+eNmiJIIy/POuNGd7PLEbI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\vite.svg"
+      "OriginalItemSpec": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\vite.svg"
     },
     {
-      "Identity": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\assets\\index-pNDbPpl1.js",
+      "Identity": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\assets\\index-pNDbPpl1.js",
       "SourceId": "Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\",
       "BasePath": "_content/Server",
       "RelativePath": "assets/index-pNDbPpl1#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-pNDbPpl1.js"
     },
     {
-      "Identity": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\hero1.jpg",
+      "Identity": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\hero1.jpg",
       "SourceId": "Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\",
       "BasePath": "_content/Server",
       "RelativePath": "hero1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\hero1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\index.html",
       "SourceId": "Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\",
       "BasePath": "_content/Server",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\vite.svg",
+      "Identity": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\vite.svg",
       "SourceId": "Server",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\",
       "BasePath": "_content/Server",
       "RelativePath": "vite#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -167,7 +167,7 @@
   "Endpoints": [
     {
       "Route": "assets/index-pNDbPpl1.js",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\im50fn48yh-tkrxbbj91g.gz",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\im50fn48yh-tkrxbbj91g.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -222,7 +222,7 @@
     },
     {
       "Route": "assets/index-pNDbPpl1.js",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\assets\\index-pNDbPpl1.js",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\assets\\index-pNDbPpl1.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -259,7 +259,7 @@
     },
     {
       "Route": "assets/index-pNDbPpl1.js.gz",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\im50fn48yh-tkrxbbj91g.gz",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\im50fn48yh-tkrxbbj91g.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -304,7 +304,7 @@
     },
     {
       "Route": "assets/index-pNDbPpl1.tkrxbbj91g.js",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\im50fn48yh-tkrxbbj91g.gz",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\im50fn48yh-tkrxbbj91g.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -367,7 +367,7 @@
     },
     {
       "Route": "assets/index-pNDbPpl1.tkrxbbj91g.js",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\assets\\index-pNDbPpl1.js",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\assets\\index-pNDbPpl1.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -412,7 +412,7 @@
     },
     {
       "Route": "assets/index-pNDbPpl1.tkrxbbj91g.js.gz",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\im50fn48yh-tkrxbbj91g.gz",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\im50fn48yh-tkrxbbj91g.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -465,7 +465,7 @@
     },
     {
       "Route": "hero1.9g8nky98ym.jpg",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\hero1.jpg",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\hero1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -510,7 +510,7 @@
     },
     {
       "Route": "hero1.jpg",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\hero1.jpg",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\hero1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -547,7 +547,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\me970lfqfr-netr1u58fl.gz",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\me970lfqfr-netr1u58fl.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -602,7 +602,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\index.html",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -639,7 +639,7 @@
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\me970lfqfr-netr1u58fl.gz",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\me970lfqfr-netr1u58fl.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -684,7 +684,7 @@
     },
     {
       "Route": "index.netr1u58fl.html",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\me970lfqfr-netr1u58fl.gz",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\me970lfqfr-netr1u58fl.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -747,7 +747,7 @@
     },
     {
       "Route": "index.netr1u58fl.html",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\index.html",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -792,7 +792,7 @@
     },
     {
       "Route": "index.netr1u58fl.html.gz",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\me970lfqfr-netr1u58fl.gz",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\me970lfqfr-netr1u58fl.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -845,7 +845,7 @@
     },
     {
       "Route": "vite.svg",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\yp2k4b0m3l-vchkjws9fk.gz",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\yp2k4b0m3l-vchkjws9fk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -900,7 +900,7 @@
     },
     {
       "Route": "vite.svg",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\vite.svg",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\vite.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -937,7 +937,7 @@
     },
     {
       "Route": "vite.svg.gz",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\yp2k4b0m3l-vchkjws9fk.gz",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\yp2k4b0m3l-vchkjws9fk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -982,7 +982,7 @@
     },
     {
       "Route": "vite.vchkjws9fk.svg",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\yp2k4b0m3l-vchkjws9fk.gz",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\yp2k4b0m3l-vchkjws9fk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1045,7 +1045,7 @@
     },
     {
       "Route": "vite.vchkjws9fk.svg",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\wwwroot\\vite.svg",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\wwwroot\\vite.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1090,7 +1090,7 @@
     },
     {
       "Route": "vite.vchkjws9fk.svg.gz",
-      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\Debug\\net9.0\\compressed\\yp2k4b0m3l-vchkjws9fk.gz",
+      "AssetFile": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\Debug\\net9.0\\compressed\\yp2k4b0m3l-vchkjws9fk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {

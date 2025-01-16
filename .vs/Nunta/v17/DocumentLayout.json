@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\",
+  "WorkspaceRootPath": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED23112E-CD2A-4A6C-9BCD-82510C36E5FE}|Server\\Server.csproj|c:\\users\\calin.corcotoi\\programare\\git\\nunta\\server\\fly.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{ED23112E-CD2A-4A6C-9BCD-82510C36E5FE}|Server\\Server.csproj|c:\\users\\calin.corcotoi\\programare\\git\\nunta1\\server\\fly.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{ED23112E-CD2A-4A6C-9BCD-82510C36E5FE}|Server\\Server.csproj|solutionrelative:server\\fly.toml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "fly.toml",
-              "DocumentMoniker": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Server\\fly.toml",
+              "DocumentMoniker": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\fly.toml",
               "RelativeDocumentMoniker": "Server\\fly.toml",
-              "ToolTip": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Server\\fly.toml",
+              "ToolTip": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\fly.toml",
               "RelativeToolTip": "Server\\fly.toml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-01-16T12:56:56.092Z",
               "EditorCaption": ""

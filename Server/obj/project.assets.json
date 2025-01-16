@@ -3250,11 +3250,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\Server.csproj",
+      "projectUniqueName": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\Server.csproj",
+      "projectPath": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\Server.csproj",
       "packagesPath": "C:\\Users\\Calin.Corcotoi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta\\Nunta\\Server\\obj\\",
+      "outputPath": "C:\\Users\\Calin.Corcotoi\\Programare\\git\\Nunta1\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
