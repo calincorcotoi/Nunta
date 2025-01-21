@@ -1,7 +1,0 @@
-C:\Users\Calin.Corcotoi\Programare\git\Nunta\Nunta\Server\wwwroot\assets\index-pNDbPpl1.js
-C:\Users\Calin.Corcotoi\Programare\git\Nunta\Nunta\Server\wwwroot\index.html
-C:\Users\Calin.Corcotoi\Programare\git\Nunta\Nunta\Server\wwwroot\vite.svg
-wwwroot\assets\index-pNDbPpl1.js
-wwwroot\hero1.jpg
-wwwroot\index.html
-wwwroot\vite.svg

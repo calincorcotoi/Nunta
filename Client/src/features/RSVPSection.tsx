@@ -100,6 +100,13 @@ export const RSVPSection: React.FC = () => {
           multiline
           rows={4}
           sx={{ mb: 6 }}
+          id="description"
+          name="description"
+          value={formik.values.description}
+          onChange={formik.handleChange}
+          onBlur={formik.handleBlur}
+          error={formik.touched.description && Boolean(formik.errors.description)}
+          helperText={formik.touched.description && formik.errors.description}
         />
 
         <Box sx={{ textAlign: 'center' }}>
