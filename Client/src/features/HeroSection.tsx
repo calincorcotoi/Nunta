@@ -21,7 +21,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ mode }) => (
   >
     <Container maxWidth="md" sx={{ textAlign: 'center' }}>
       <Typography variant="h1" gutterBottom align="center">
-        Sarah & Michael
+        Sarah & Michael123
       </Typography>
       <Typography variant="h3" gutterBottom align="center">
         Are getting married
