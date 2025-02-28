@@ -10,7 +10,7 @@ export const Footer: React.FC = () => (
   }}>
     <Container maxWidth="lg">
       <Typography variant="body2" align="center">
-        © 2025 Sarah & Michael's Wedding
+        © 2025 Nunta lui Sarah & Michael
       </Typography>
       <Typography variant="body2" align="center" sx={{ mt: 1 }}>
         <Link href="#" color="inherit" sx={{ mx: 1 }}>
@@ -18,11 +18,11 @@ export const Footer: React.FC = () => (
         </Link>
         |
         <Link href="#" color="inherit" sx={{ mx: 1 }}>
-          Registry
+          Registru
         </Link>
         |
         <Link href="#" color="inherit" sx={{ mx: 1 }}>
-          Accommodations
+          Cazare
         </Link>
       </Typography>
     </Container>

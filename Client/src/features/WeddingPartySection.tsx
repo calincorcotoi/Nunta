@@ -12,14 +12,14 @@ interface PartyMember {
 const partyMembers: PartyMember[] = [
     {
       name: "Eva Thompson",
-      role: "Maid of Honor",
-      description: "Serious but with curly hair, organizing all the best parties. And guess what... she's married too!",
+      role: "Domnișoara de onoare",
+      description: "Serioasă, dar cu părul creț, organizează toate cele mai bune petreceri. Și ghici ce... este și ea căsătorită!",
       imageUrl: "/api/placeholder/200/200"
     },
     {
       name: "Albert Wilson",
-      role: "Best Man",
-      description: "There would be much to say starting from this day, but it won't be about me, it's about us.",
+      role: "Cavaler de onoare",
+      description: "Ar fi multe de spus începând de astăzi, dar nu va fi despre mine, ci despre noi.",
       imageUrl: "/api/placeholder/200/200"
     }
   ];
@@ -32,8 +32,12 @@ export const WeddingPartySection: React.FC = () => (
     bgcolor: 'background.default' 
   }}>
     <Container maxWidth="lg">
-      <Typography variant="h2" align="center" gutterBottom sx={{ mb: 6 }}>
-        Wedding Party
+      <Typography variant="h2" align="center" gutterBottom sx={{ 
+          '@media (max-width:370px)': {
+        fontSize: '2rem',
+          }
+        }}>
+        Membrii Nuntă
       </Typography>
       <Grid container spacing={8} justifyContent="center">
         {partyMembers.map((member, index) => (

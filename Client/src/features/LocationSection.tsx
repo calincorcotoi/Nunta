@@ -11,8 +11,12 @@ export const LocationSection: React.FC = () => (
     bgcolor: 'background.paper' 
   }}>
     <Container maxWidth="md">
-      <Typography variant="h2" align="center" gutterBottom>
-        Venue
+      <Typography variant="h2" align="center" gutterBottom sx={{ 
+          '@media (max-width:370px)': {
+        fontSize: '2rem',
+          }
+        }}>
+        Location
       </Typography>
       <Card elevation={3}>
         <CardContent sx={{ textAlign: 'center' }}>

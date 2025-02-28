@@ -20,14 +20,26 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ mode }) => (
     }}
   >
     <Container maxWidth="md" sx={{ textAlign: 'center' }}>
-      <Typography variant="h1" gutterBottom align="center">
-        Sarah & Michael123
+      <Typography variant="h1" gutterBottom align="center" sx={{ 
+          '@media (max-width:370px)': {
+        fontSize: '2rem',
+          }
+        }}>
+        Alina & Călin
       </Typography>
-      <Typography variant="h3" gutterBottom align="center">
-        Are getting married
+      <Typography variant="h3" gutterBottom align="center"sx={{ 
+          '@media (max-width:370px)': {
+        fontSize: '2rem',
+          }
+        }}>
+        Se căsătoresc
       </Typography>
-      <Typography variant="h2" align="center">
-        June 15, 2025
+      <Typography variant="h2" align="center"sx={{ 
+          '@media (max-width:370px)': {
+        fontSize: '2rem',
+          }
+        }}>
+        Iulie 5, 2025
       </Typography>
       <Box sx={{ display: 'flex', justifyContent: 'center', mt: 10 }}>
         <Box

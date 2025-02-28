@@ -82,7 +82,11 @@ const CountdownTimer = () => {
           variant="h2" 
           align="center" 
           gutterBottom
-          sx={{ mb: 6 }}
+          sx={{ 
+            '@media (max-width:370px)': {
+          fontSize: '2rem',
+            }
+          }}
         >
           Ne căsătorim!
         </Typography>

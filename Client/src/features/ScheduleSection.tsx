@@ -11,22 +11,22 @@ interface WeddingEvent {
 
 const events: WeddingEvent[] = [
     {
-      title: 'Ceremony',
-      time: '2:00 PM',
-      location: "St. Mary's Church",
-      description: 'Join us as we exchange vows in a beautiful ceremony.',
+      title: 'Ceremonie',
+      time: '14:00',
+      location: "Biserica Sf. Maria",
+      description: 'Alăturați-vă nouă pentru a ne schimba jurămintele într-o ceremonie frumoasă.',
     },
     {
-      title: 'Cocktail Hour',
-      time: '3:30 PM',
-      location: 'Garden Terrace',
-      description: "Enjoy refreshments and hors d'oeuvres while we take photos.",
+      title: 'Ora de cocktail',
+      time: '15:30',
+      location: 'Terasa Grădinii',
+      description: "Bucurați-vă de băuturi și aperitive în timp ce facem fotografii.",
     },
     {
-      title: 'Reception',
-      time: '5:00 PM',
-      location: 'Grand Ballroom',
-      description: 'Dinner, dancing, and celebration with family and friends.',
+      title: 'Recepție',
+      time: '17:00',
+      location: 'Sala Mare',
+      description: 'Cină, dans și sărbătoare alături de familie și prieteni.',
     },
   ];
 
@@ -39,8 +39,17 @@ export const ScheduleSection: React.FC = () => (
     bgcolor: 'background.paper' 
   }}>
     <Container maxWidth="lg">
-      <Typography variant="h2" align="center" gutterBottom>
-        Schedule of Events
+      <Typography 
+        variant="h2" 
+        align="center" 
+        gutterBottom
+        sx={{ 
+          '@media (max-width:370px)': {
+        fontSize: '2rem',
+          }
+        }}
+      >
+        Programul Evenimentelor
       </Typography>
       <Grid container spacing={4} sx={{ mt: 4 }}>
         {events.map((event, index) => (

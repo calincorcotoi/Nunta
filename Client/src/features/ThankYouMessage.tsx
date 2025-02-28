@@ -14,12 +14,12 @@ const ThankYouMessage: React.FC = () => {
         <CardContent sx={{ p: 6, textAlign: 'center' }}>
           <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 2, mb: 4 }}>
             <Typography variant="h2" sx={{ fontSize: '2.5rem', fontWeight: 'bold' }}>
-              Thank You!
+              Mulțumim!
             </Typography>
           </Box>
 
           <Typography variant="body1" sx={{ fontSize: '1.25rem', color: theme.palette.text.primary, mb: 4 }}>
-            Thank you for being part of our special day. Your presence and support made our wedding truly memorable.
+            Vă mulțumim că ați fost alături de noi în această zi specială. Prezența și sprijinul vostru au făcut ca nunta noastră să fie cu adevărat memorabilă.
           </Typography>
           <Heart color={theme.palette.primary.main} size={32} fill={theme.palette.primary.main} />
         </CardContent>

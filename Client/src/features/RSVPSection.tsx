@@ -8,11 +8,11 @@ import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
 const validationSchema = Yup.object().shape({
   name: Yup.string()
-    .min(2, 'Too Short!')
-    .max(50, 'Too Long!')
-    .required('Required'),
+    .min(2, 'Prea scurt!')
+    .max(50, 'Prea lung!')
+    .required('Obligatoriu'),
   numberOfGuestComing: Yup.number()
-    .required('Required')
+    .required('Obligatoriu')
 });
 
 
@@ -30,7 +30,7 @@ export const RSVPSection: React.FC = () => {
       setLoading(true);
       const createGuest: Guest = { ...values };
        agent.Guests.create(createGuest)
-            .then(() => console.log('Guest created successfully'))
+            .then(() => console.log('Invitat creat cu succes'))
             .catch(error => console.log(error))
             .finally(() => {
               setLoading(false)
@@ -48,22 +48,26 @@ export const RSVPSection: React.FC = () => {
     bgcolor: 'background.default' 
   }}>
     <Container maxWidth="sm">
-      <Typography variant="h2" align="center" gutterBottom>
-        RSVP
+      <Typography variant="h2" align="center" gutterBottom sx={{ 
+          '@media (max-width:370px)': {
+        fontSize: '2rem',
+          }
+        }}>
+      Vei participa?
       </Typography>
       <Typography variant="body1" align="center" paragraph>
-        Please let us know if you'll be joining us on our special day.
+        Vă rugăm să ne anunțați dacă veți fi alături de noi în această zi specială.
       </Typography>
       <Box sx={{ mt: 4 }}>
         <form onSubmit={formik.handleSubmit}>
         <Typography variant="h6" gutterBottom>
-          Your Name
+          Numele tău
         </Typography>
         <TextField
           variant="outlined"
           sx={{ mb: 3 }}
           fullWidth
-          placeholder="Enter your name"
+          placeholder="Introduceți numele dvs."
           id="name"
           name="name"
           value={formik.values.name}
@@ -73,7 +77,7 @@ export const RSVPSection: React.FC = () => {
           helperText={formik.touched.name && formik.errors.name}
         />
         <Typography variant="h6" gutterBottom>
-          Number of Persons
+          Numărul de persoane
         </Typography>
         <TextField
           select
@@ -91,12 +95,12 @@ export const RSVPSection: React.FC = () => {
           ))}
         </TextField>
         <Typography variant="h6" gutterBottom>
-          Description
+          Mesaj
         </Typography>
         <TextField
           variant="outlined"
           fullWidth
-          placeholder="Enter a description"
+          placeholder="Introduceți o mesaj"
           multiline
           rows={4}
           sx={{ mb: 6 }}
@@ -120,7 +124,7 @@ export const RSVPSection: React.FC = () => {
               sx={{ minWidth: 200 }}
               type="submit"
             >
-              RSVP Now
+              Trimite
             </Button>
             )}
           
