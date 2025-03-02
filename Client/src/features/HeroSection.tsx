@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Container, Paper, Typography } from '@mui/material';
+import { Box, Container, Paper, Typography, useMediaQuery, useTheme } from '@mui/material';
 
 interface HeroSectionProps {
   mode: 'light' | 'dark';
 }
 
 export const HeroSection: React.FC<HeroSectionProps> = ({ mode }) => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
   const isLight = mode === 'light';
 
   const [timeLeft, setTimeLeft] = useState({
@@ -166,7 +168,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ mode }) => {
                 marginBottom: 1,
               }}
             >
-              Timișoara, Romania
+              Brașov, Romania
             </Typography>
 
             {/* Date */}
@@ -178,7 +180,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ mode }) => {
                 letterSpacing: '1px',
               }}
             >
-              Sâmbătă, 5 Iulie 2025
+              Saturday, July 5, 2025
             </Typography>
 
             {/* Countdown */}
@@ -186,9 +188,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ mode }) => {
               sx={{
                 display: 'flex',
                 justifyContent: 'center',
-                gap: 2,
-                marginBottom: 4,
-                width: '100%',
+                gap: 3,
+                flexWrap: 'wrap',
               }}
             >
               <TimeBox value={timeLeft.days} label="Zile" mode={mode} />
