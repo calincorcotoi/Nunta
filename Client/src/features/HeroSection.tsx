@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Container, Paper, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { Box, Container, Paper, Typography } from '@mui/material';
 
 interface HeroSectionProps {
   mode: 'light' | 'dark';
 }
 
 export const HeroSection: React.FC<HeroSectionProps> = ({ mode }) => {
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
   const isLight = mode === 'light';
 
   const [timeLeft, setTimeLeft] = useState({
