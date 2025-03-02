@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Container, Paper, Typography, useMediaQuery, useTheme } from '@mui/material';
-
+import { Box, Container, Paper, Typography } from '@mui/material';
+import AC from '../../public/AC.jpg';
 interface HeroSectionProps {
   mode: 'light' | 'dark';
 }
 
 export const HeroSection: React.FC<HeroSectionProps> = ({ mode }) => {
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
   const isLight = mode === 'light';
 
   const [timeLeft, setTimeLeft] = useState({
@@ -93,7 +91,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ mode }) => {
           >
             <Box
               component="img"
-              src="public/AC.jpg"
+              src={AC}
               alt="Alina and Călin"
               sx={{
                 width: '100%',
