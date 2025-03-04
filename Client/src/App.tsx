@@ -1,14 +1,22 @@
-
 import { Container, createTheme, ThemeProvider } from '@mui/material';
 import './App.css'; // Import custom CSS for additional styling
 import { NavigationBar } from './features/NavigationBar';
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import WeddingLandingPage from './features/WeddingLandingPage';
+import HeartLoader from './features/HeartLoader';
 
 function App() {
   const [mode, setMode] = useState<'light' | 'dark'>('light');
   const location = useLocation();
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1500);
+
+    return () => clearTimeout(timer);
+  }, []);
   // Create a theme instance based on current mode
   const theme = useMemo(
     () =>
@@ -48,16 +56,19 @@ function App() {
   };
   return (
     <ThemeProvider theme={theme}>
-      {location.pathname === '/' ? 
-      <>      
-        <NavigationBar mode={mode} toggleTheme={toggleTheme} />
-        <WeddingLandingPage mode={mode}/>
-      </>
-      : 
-      <Container sx={{mt: 4}}>
+      {location.pathname === '/' ? (
+        <>
+          {isLoading ? <HeartLoader /> : null}
+          <div style={{ display: isLoading ? 'none' : 'block' }}>
+            <NavigationBar mode={mode} toggleTheme={toggleTheme} />
+            <WeddingLandingPage mode={mode} />
+          </div>
+        </>
+      ) : (
+        <Container sx={{ mt: 4 }}>
           <Outlet />
-      </Container>}
-    
+        </Container>
+      )}
     </ThemeProvider>
   );
 }
